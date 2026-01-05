@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Streamlit & Gspread Specifics ---
+# Ignore the local secrets and configuration folder
+.streamlit/
+
+# Ignore all JSON files
+*.json
+
+# If you use a local environment file for variables
+.env
